@@ -15,5 +15,20 @@
 }
 
 .form {
+    padding: 100px;
     background-image: url("../images/background.png");
+}
+
+.sizes {
+    padding: 50px;
+}
+
+.form h2 {
+    color: white;
+    font-style: italic;
+}
+
+.about {
+    border: 2px solid red;
+    padding: 50px;
 }
