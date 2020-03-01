@@ -50,5 +50,31 @@
                 </div>
               </div>
             </div>
+            <div class = "form">
+                <h2>Place your Order Here</h2>
+                <div class="top">
+                    <h4>Pick your Pizza size</h4>
+                    <input type="radio" id="size" name="choice" value="small" checked>Small
+                    <input type="radio" id="size" name="choice" value="medium">Medium
+                    <input type="radio" id="size" name="choice" value="large">Large
+                </div>
+                <br>
+                <div class="middle">
+                    <h4>Pick your preferred crust type</h4>
+                    <input type="radio" id="crust" name="choice1" value="crispy" checked>Crispy
+                    <input type="radio" id="crust" name="choice1" value="stuffed">Stuffed
+                    <input type="radio" id="crust" name="choice1" value="gluten-freelarge">Gluten-free
+                </div>
+                <br>
+                <div class="bottom">
+                    <h4>Pick your preferred topping</h4>
+                    <input type="radio" id="topping" name="choice2" value="Pepparoni" checked>Pepparoni
+                    <input type="radio" id="topping" name="choice2" value="Mushrooms">Mushrooms
+                    <input type="radio" id="topping" name="choice2" value="Pineapple">Pineapple
+                </div>
+                <div class="submit">
+                    <button type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">Submit</button>
+                </div>
+            </div>
     </body>
 </html>
