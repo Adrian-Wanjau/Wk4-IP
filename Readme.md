@@ -1,4 +1,4 @@
-# The Forth IP
+# THE FOURTH IP
 #### 29th February 2020.
 ## By Adrian Wanjau
 The Author of this project is a student at Moringa School currently taking part in the Prep Program in the 4th week.
@@ -13,6 +13,7 @@ Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk4-IP)
 
 ## SETUP/INSTALLMENT REQUIREMENTS
 Clone this Repository onto your device then open the file and it will lead you to the Webpage.
+Alternatively, you can click on the live site in the Repository or the Readme File.
 
 ## TECHNOLOGIES USED
 1. Visual studio code was used in coding the HTML, Bootstrap, Jquery, and Javascript.
