@@ -13,3 +13,7 @@
 .columnshowing3 {
     display: none;
 }
+
+.form {
+    background-image: url("../images/background.png");
+}
