@@ -9,7 +9,7 @@ This is a webpage in which contains all the work I have done during my forth wee
 2. Choose what kind of crust they would like.
 3. Choose the topping(s) they want on the pizza.
 The user can then decide to have it delivered to the location they have stated or not. Once done they can then checkout showing the total cost of the order.
-Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk4-IP)
+Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk4-IP/)
 
 ## SETUP/INSTALLMENT REQUIREMENTS
 Clone this Repository onto your device then open the file and it will lead you to the Webpage.
