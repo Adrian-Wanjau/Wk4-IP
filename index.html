@@ -55,32 +55,52 @@
         </div>
       </div>
     </div>
-    <div class = "form">
-      <h2>Place your Order Here</h2>
-      <div class="top">
+    <div class = "row">
+     <div class = "col-md-8">
+      <div class = "form">
+       <h2>Place your Order Here</h2>
+       <div class="top">
         <h4>Pick your Pizza size</h4>
         <input type="radio" id="size" name="choice" value="small" checked>Small<br>
         <input type="radio" id="size" name="choice" value="medium">Medium<br>
         <input type="radio" id="size" name="choice" value="large">Large<br>
-      </div>
-      <br>
-      <div class="middle">
+       </div>
+       <br>
+       <div class="middle">
         <h4>Pick your preferred crust type</h4>
         <input type="radio" id="crust" name="choice1" value="crispy" checked>Crispy<br>
         <input type="radio" id="crust" name="choice1" value="stuffed">Stuffed (Extra 50Ksh)<br>
         <input type="radio" id="crust" name="choice1" value="gluten-freelarge">Gluten-free (Extra 100Ksh)<br>
-      </div>
-      <br>
-      <div class="bottom">
+       </div>
+       <br>
+       <div class="bottom">
         <h4>Pick your preferred topping</h4>
         <input type="radio" id="topping" name="choice2" value="Pepparoni" checked>Pepparoni<br>
         <input type="radio" id="topping" name="choice2" value="Mushrooms">Mushrooms<br>
         <input type="radio" id="topping" name="choice2" value="Pineapple">Pineapple<br>
+       </div>
+       <br>
+       <div class="submit">
+        <button type="submit" class="btn">Add another order</button>
+       </div>
+       <h2>Orders Made</h2>
+       <ul id="Order">
+
+       </ul>
       </div>
-      <br>
-      <div class="submit">
-        <button type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">Submit</button>
-      </div>
+     </div>
+     <div class="col-md-4">
+        <div class ="show-delivery">
+          <p>Click here for delivery option.</p>
+        </div>
+        <div class ="hidden-delivery">
+          <h2>Enter Details for delivery</h2>
+          <input type="text" id="fristName" placeholder="First Name">
+          <input type="text" id="lastName" placeholder="Last Name">
+          <br>
+          <input type="text" id="address" placeholder="Address">
+        </div>
+     </div>
     </div>
   </body>
 </html>
