@@ -37,6 +37,10 @@
     background-image: none;
 }
 
+.nxtOrder {
+    display: none;
+}
+
 .sizes {
     padding: 50px;
 }

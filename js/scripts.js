@@ -12,13 +12,12 @@ Order.prototype.pizzadetails = function() {
 function Contact(first, last, place) {
     this.firstName = first;
     this.lastName = last;
+    this.address = place;
 }
-
 
 Contact.prototype.fullName = function() {
-    return this.firstName + " " + this.lastName;
+    return this.firstName + " " + this.lastName + ", " + this.address;
 }
-
   
 // user interface logic
 $(document).ready(function() {
@@ -34,7 +33,7 @@ $(document).ready(function() {
         $(".columnshowing3").toggle();
         $(".columnone3 img").toggle();
     });
-    $(".row").click(function() {
+    $(".col-md-4").click(function() {
         $(".hidden-delivery").toggle();
         $(".show-delivery").toggle();
     });
@@ -55,4 +54,18 @@ $(document).ready(function() {
         $("radio#crust").val();
         $("radio#topping").val();
     });
+
+    $(".col-md-4").submit(function(event) {
+        event.preventDefault();
+    
+        var inputtedFirstName = $("input#firstName").val();
+        var inputtedLastName = $("input#lastName").val();
+        var inputtedAddress = $("input#address").val();
+    
+        var newContact = new Contact(inputtedFirstName, inputtedLastName, inputtedAddress);
+    
+        $("input#firstName").val("");
+        $("input#lastName").val("");
+        $("input#address").val("");
+      });
 });
