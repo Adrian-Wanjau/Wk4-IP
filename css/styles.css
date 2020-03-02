@@ -14,9 +14,27 @@
     display: none;
 }
 
+.hidden-delivery {
+    display: none;
+    padding: 50px;
+    padding-top: 200px;
+}
+
+.show-delivery {
+    padding: 50px;
+    padding-top: 200px;
+}
+
 .form {
     padding: 100px;
+}
+
+.row {
     background-image: url("../images/background.png");
+}
+
+.sizes .row {
+    background-image: none;
 }
 
 .sizes {
